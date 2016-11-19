@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">MRR</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="profile_passage1">MRR Nature Cure is a Naturopathy Hospital, which provides you holistic healthcare without medicines &amp; it offers treatment for diseases using well researched system of Yoga, Naturopathy and other healing therapies etc; this natural healing system has no hidden side-effects.</string>
+    <!--<string name="passage">\It is located close to Garden city Bengaluru, set in 20 acres of Greenery of Coconut and Mango groves. \Our stress management workshops for business executives teach you to live stress free, powerful, purposeful life, in today's competitive and commercial world.</string>-->
+    <string name="profile_passage3">Naturopathy, a time-tested system of drugless healing, offers healthcare through therapies like Natural therapy, yogic therapy, mud and hydro therapy, magneto therapy, acupuncture and physiotherapy.</string>
+    <string name="vision2">1. Integration of traditional therapies \n2. Provide evidence based health care to our patients \n3. Teach our patients to achieve wellness of body mind and spirit \n4. Provide our patients primary health care to assist with BC’s physician shortage \n5. Offer focused care in the following areas: infertility, paediatrics, pregnancy, women’s health, anti-aging, mental health, chronic and autoimmune diseases, Lyme’s disease, cardiovascular disease, IV therapy, allergies, and chronic pain \n6. Provide ongoing health care education in training experienced health care practitioners and medical students</string>
+    <string name="vision1">Our mission is to be a clinical leader in the integration of Nature Cure, complimentary therapies. We strive to provide our patients with evidence-based integrative primary health care to improve the wellbeing of children, adolescents, women, men, seniors and our community. We strive to help people reach a healthy state of balance and well-being through integrating Nature Cure, Acupuncture, Counselling and Registered Massage Therapy.</string>
+    <string name="vision3">Be an innovative leader in the advancement of Nature Cure.</string>
+    <string name="managementtxt1">What to expect from us</string>
+    <string name="managementtxt2">At our clinic, you will be listened to and treated with dignity and respect. Based on the ailments you will be offered treatment options that honour your preferences, that are tailored to your unique situation and health goals, that are accessible to you, and that make sense to you. \n
+        \nAs Naturopathy doctors we are sworn to assist and encourage others to strengthen their health and reduce risks for disease. At our clinic we hold ourselves to the highest standards of confidentiality and professionalism so that you can have complete confidence in our care.Our goal is to that get at the root cause of your health concerns in a way that is simple, cost-effective, and minimally disruptive to your life. \n
+        \nAt MRR Nature Cure we serve patients of all ages and stages of life. We aim to address the root cause of your health concerns and teach you the skills you need to maintain your health, long term. We take the view that good health is not just an absence of disease,  but a state of complete physical, mental-emotional, socioeconomic, spiritual and environmental well-being.</string>
+    <string name="managementtxt3">Our Principles – How we make decisions?</string>
+    <string name="managementtxt4">At MRR Nature Cure we understand that our health is inseparable from the health of our communities, and of the world that we live in, therefore environmental awareness and community-building are at the heart of every decision we make.</string>
+    <string name="managementtxt5">Excellence in patient care</string>
+    <string name="managementtxt6">At MRR Nature Cure we are committed to providing excellence in patient care. We aim to do this by:
+        \nProviding a broad range of health services to encourage and empower our patients to achieve their health goals
+        \nHonouring our values: patient-centred care, informed consent and education, confidentiality and professionalism, simple and effective healthcare solutions, and lifelong health
+        \nListening to the needs of our patient base and modifying accordingly</string>
+    <string name="managementtxt7">Community-Building</string>
+    <string name="managementtxt8">At MRR Nature Cure we aim to value and build community both within and outside of our organization by:
+        \nValuing collaboration, mutual respect, and diversity of perspective and opinion
+        \nProviding informative and engaging classes, seminars, office wellness programs, speaking engagements and written articles on health topics that are important in our community</string>
+    <string name="directortxt">\"HEALTH is WEALTH" is the greatest message our ancestors have given us realizing the importance of health in one's life. A healthy lifestyle, homemade fresh food and life close to nature were their secret remedies for longevity and disease free life. But today the scenario has changed. \n
+        \nTechnology has led us to moon, research and science has brought us from macro to Nano but our health has ruined by stress-related and lifestyle related diseases. \n
+        \nIn the era of globalization, urbanization, industrialization and commercialization, we have forgotten about our ancient medication and became slaves to modern injection or operation. \n
+        \nNature has always been the best healer. A holistic approach and treating the root cause of very condition is what Nature cure is known for. Using this as our motto, we have established this hospital to drawn people towards mother nature .Medication is not the ultimate remedy  but change in lifestyle, good and habits is what can keep us safe from lifestyle disorders and this is what we teach and use through naturopathy and yoga. \n
+        \nI wish this desire of mine help to bring a change in your life and the healing power of our system reaches every corner of the world.</string>
+    <string name="facilitiestxt1">Facilities Available</string>
+    <string name="facilitiestxt2">* Indoor games \n* Reflexology track \n* Walking track \n* Swimming pool \n* Parking \n* Security \n* Locker facility \n* Open air amphitheatre \n* Utility shop for basic needs \n* Travel desk</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="department_title">Departments</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+
+    <string-array name="acco_titles">
+        <item>Male general ward</item>
+        <item>Female general ward</item>
+        <item>Twin Sharing</item>
+        <item>Three Sharing</item>
+        <item>Semi Deluxe</item>
+        <item>Deluxe</item>
+        <item>Executive Suits</item>
+    </string-array>
+
+    <string-array name="acco_descrip">
+        <item>Male general ward can accommodate 4 people in a room, 4 rooms of this particular category is availab..</item>
+        <item>Female general ward can accommodate 12 people. It is located on the ground floor close to the treatm..</item>
+        <item>Twin sharing accommodation has an air-conditioned bedroom of soothing décor with 2 separate beds, te..</item>
+        <item>Three sharing accommodation has an air-conditioned bedroom of soothing décor with 3 separate beds, t..</item>
+        <item>It is the accommodation suitable for a family of two. The accommodation is fully air-conditioned, an..</item>
+        <item>Deluxe accommodation is ideal for family of two. This accommodation is spacious and furnished with t..</item>
+        <item>Executive suite offers you the most private and luxurious experience at our centre. This particular ..</item>
+    </string-array>
+
+    <string name="Three_Sharing">Three sharing accommodation has an air-conditioned bedroom of soothing décor with 3 separate beds, television and intercom .These are located close to a common sit out area ideal for socialization and provides a great view of garden and reflexology track. Bathroom is well equipped with all the modern amenities. Since these accommodations are designed for sharing purpose, a patient may have to share the room with other patients of same gender. This accommodation has lift and stairs connectivity.</string>
+    <string name="Twin_Sharing">Twin sharing accommodation has an air-conditioned bedroom of soothing décor with 2 separate beds, television and intercom .These are located close to a common sit out area ideal for socialization and provides a great view of garden and reflexology track. Bathroom is well equipped with all the modern amenities. Since these are twin-sharing, a patient may have to share the room with other patients of same gender. This room has lift and stairs connectivity. </string>
+    <string name="Semi_Deluxe">It is the accommodation suitable for a family of two. The accommodation is fully air-conditioned, and has a richly furnished room with a king sized bed, television and intercom facility. Its meticulously designed interiors, living room, dressing room cum walk-in-wardrobe, attached bath, nearby sit-out with splendid garden view.</string>
+    <string name="Deluxe">Deluxe accommodation is ideal for family of two. This accommodation is spacious and furnished with the view of providing ultimate experience of comfort and luxury. Sophisticated décor, soothing interior, luxurious bath room, writing table and nearby sit-out area with best view of garden are part of this accommodation.</string>
+    <string name="Executive_Suits">Executive suite offers you the most private and luxurious experience at our centre. This particular accommodation is designed to provide the ultimate experience of nature cure therapies with the best possible facilities. A separate attendant area, ornately upholstered furniture in the living area, bedroom with wooden flooring, bathroom with the most comforting bathroom accessories for the relaxing experience. \n  \n Majority of the treatments are done with in the accommodation by our well trained staff. Ozone steam bath, detox sauna bath, massage table, hip bath tub are installed within the treatment area. \n
+        \n Executive suites are available in 6 different interior designs. \n 1.Rustic \n 2.Zen \n 3.Classic \n 4.Bamboo \n 5.Tree \n</string>
+    <string name="Male_general_ward">Male general ward can accommodate 4 people in a room, 4 rooms of this particular category is available. Each room is fully furnished with individual cupboard, dressing table, television, intercom, shoe rack, dressing table and attached bathroom with all the modern amenities. It is located on the top floor with the best view of entire campus and is connected by lift and stairs.</string>
+    <string name="Female_general_ward">Female general ward can accommodate 12 people. It is located on the ground floor close to the treatment section, reflexology track ,walking track and garden.  This accommodation consists of individual cupboard, dressing table, television, intercom and attached bathroom with all the modern amenities. </string>
+
+    <string-array name="nav_headers">
+        <item>About Us</item>
+        <item>Treatment</item>
+        <item>Accomodations</item>
+        <item>Program</item>
+        <item>Media</item>
+        <item>Contact</item>
+    </string-array>
+
+    <string-array name="about_us">
+        <item>Company Profile</item>
+        <item>Vision Mission</item>
+        <item>Management</item>
+        <item>Director Message</item>
+        <item>Facilities</item>
+    </string-array>
+
+    <string-array name="treatment">
+        <item>History</item>
+        <item>Departments</item>
+        <item>Treatment Offer</item>
+    </string-array>
+
+    <string-array name="accomodations">
+        <item>Accomodations</item>
+    </string-array>
+
+    <string-array name="program">
+        <item>Programs</item>
+    </string-array>
+
+    <string-array name="media">
+        <item>Gallery</item>
+        <item>Events</item>
+        <item>Carrer Opportunities</item>
+    </string-array>
+
+    <string-array name="contact">
+        <item>Contact Us</item>
+    </string-array>
+
+    <string name="historyhead1">Origin and History of Naturopathy</string>
+    <string name="historyhead2">Naturopathy in Vedas</string>
+    <string name="historycontent1">Nature cure is not a new science. In India, Rishi’s &amp; Muni’s have observed the nature very closely and discovered the laws governing the health and disease.
+        They have therefore, propounded a way of life in accordance with the principles that govern health and which is now termed as nature cure principles. \n
+        \n Employing natural elements in treating ailments is a century old healing disciple that made its presence felt when drugs and technology were not in vogue.
+        Using nature and natural elements was always there and still stands as a constructive, drugless healing process which believes in staying healthy in accordance with the law of nature. \n
+        \n In India the history of Naturopathy, the ancient science of healing and art of living can be traced back to the Vedic times. During the ancient times this system of medicine was practiced widely in the country.
+        During the ancient times the physicians used to treat the patient’s using natural medicines but would also educate them about a healthy lifestyle.</string>
+    <string name="historycontent2">During Vedic period there is a clear concept about medicinal value of water, earth etc. Ganga river water was considered as an instrumental one in curing Heart disease and Arthritis. \n
+        \n In Rig Veda fasting was considered as supreme medicine to eliminate accumulated toxins in different parts of human body. \n \n Bhagavat Gita explains about the three varieties of food and its effect on human body and mind.
+        Some other practices have drawn its origin from the practice prevalent in Nature like birds, animals etc., we can see that sometimes animals rest to fast and vomit out the unwanted material in the body.
+        It takes sun bath in plenty, they get themselves in to water for quite some time, and they cool the body by digging the earth and getting in touch with mud. \n
+        \n The revival of Nature Cure started in India by translation of Louis Kuhne’s book “New Science of Healing”. Shri D. Venkat Chelapati Sharma translated the book in Telugu language in about 1894.
+        Shri Shroti Kishan Swaroop of Bijnor translated this book into Hindi and Urdu languages in 1904. This gave a wide propagation to this system. \n
+        \n However in India the Nature Cure movement gained momentum during the times of Mahatma Gandhi. Mahatma Gandhi was influenced by the book “Return of Nature” written by Adolf Just and became a firm believer of Naturopathy. He included Naturopathy in his constructive programmes.
+        In India Nature Cure movement started mainly in the States of Andhra Pradesh, Uttar Pradesh, Bengal, Maharashtra and Gujarat etc., \n
+        \n Some of the Naturopaths are Dr. Mahavir Prasad Poddar, Dr. Vegi Raju Krishnam Raju, Dr. Janaki Sharan Varma, Dr. Khushi Ram Dilkash, Dr. S.J. Singh, Dr. Hiralal, Dr. Vittal Das Modi, Dr. Kulranjan Mukherjee, Dr. Sukhram Das, Dr. J. M. Jussawala, Dr. M.M. Bhamgara, Dr. B. Venkat Rao, Dr. B. Vijay Laxmi, Dr. Ganga Prasad Goud “Nahar”,
+        Shri Dharam Chanda Saravagi and Acharya K. Laxman sharma etc.  Naturopathy treatments originated as the use of herbs and foods for medicine, exposure to fresh air and sunlight and hydrotherapy as steam or sauna. \n
+        \n Nature Cure, as it was called, started in Germany &amp; other western countries with “Water Cure”(Hydro therapy). It was popularized by Vincent Priessnitz who was a farmer. As a result, he was credited as the “Father of Naturopathy”. However the term Naturopathy was coined by Dr. John Scheel in 1895.It was further popularized and propagated by Dr. Benedict Lust.</string>
+    <string name="treatmenthead">Treatments Offer :</string>
+    <string name="treatmentcontent">* Acupuncture \n* Physiotherapy \n* colon hydrotherapy \n* mud bath \n* Neem Alovera Tulsi massage \n* Ganji Turmeric bath \n* Hot stone massage \n* Salt glow massage \n* Powder massage \n* Full body oil massage \n* whirl pool bath \n* circular jet \n* Delux hydro massage \n* Under water massage \n* Douche \n* steam with ozone \n* sauna bath
+        \n* Reclining steam bath \n* Full wet sheet pack \n* Shirodhara Mustard pack \n* Arm &amp; foot bath \n* Spinal spray \n* Spinal bath \n* Hip bath \n* Facial steam inhalation \n* Gastro hepatic pack \n* kidney pack \n* Eye pack \n*  Abdomen pack \n* Partial mud application</string>
+    <string name="programhead">Programs</string>
+    <string name="programcontent1">We have 3 different types of Packages, they are as follows</string>
+    <string name="programcontent2">* Platinum \n* Diamond \n* Gold</string>
+    <string name="carrerhead">Carrer Opportunities :</string>
+    <string name="carrercontent">Details of job vacancies will be announced soon.</string>
+    <string name="broucherhead">E-Broucher Download :</string>
+    <string name="brouchercontent">Page will be updated soon...........</string>
+    <string-array name="departmentsheadlist">
+        <item>Acupuncture</item>
+        <item>Hydrotherapy</item>
+        <item>Manipulative Therapy</item>
+        <item>Diet Therapy</item>
+        <item>Physiotherapy</item>
+        <item>Aromatherapy</item>
+        <item>Therapeutic Yoga</item>
+    </string-array>
+    <string-array name="departmentscontentlist">
+        <item>Acupuncture is a technique in which practitioners stimulate specific points on the body which are considered to be lines of energy (meridians), used in the treatment of various conditions,most often by inserting thin needles through the skin. Inserting very fine needles influences the flow of energy to bring about a balance between positive and negative.</item>
+        <item>Hydrotherapy is used to treat many illnesses and conditions, including acne; arthritis; cold; depression;headache; stomach problems; joint, muscle, and nerve problems; sleep disorders;and stress. Hydrotherapy is used to reduce or relieve sudden or long-lasting pain. Also used for relaxation and to maintain health. Mud is an important element of nature. It contains important minerals which have positive effects on human health. Mud can absorb toxins from human body therefore is very useful in preventing many diseases. It is also known for its healing properties. It also helps in cooling and relaxing body as it can hold moisture for a long time.</item>
+        <item>Is the scientific manipulation of the soft tissues of the body for the purpose of normalizing those tissues and consists of manual techniques that include applying fixed or movable pressure,holding, and/or causing movement of or to the body.</item>
+        <item>The branch of dietetics concerned with the use of foods for therapeutic purposes. Diet therapy is a method of eating prescribed by a physician to improve health. Treatments involve including foods that improve specific health conditions, while avoiding foods that may make the condition worse. Some health conditions require temporary therapeutic diets &amp; also supplementation of naturally available nutrients which will ensure a complete and adequate supply of nutrients needed for health and longevity.</item>
+        <item>Physiotherapy is a science-based profession and takes a ‘whole person’ approach to health and well being, which includes the patient’s general lifestyle. At the core is the patient’s involvement in their own care, through education, awareness, empowerment and participation in their treatment.</item>
+        <item>Defined as the art and science of utilizing naturally extracted aromatic essences from plants to balance,harmonize and promote the health of body, mind and spirit.  It seeks to unify physiological,psychological and spiritual processes to enhance an individual’s innate healing process.</item>
+        <item>Therapeutic Yoga is the application of Yogic principles to a particular person with the objective of achieving a particular spiritual, psychological, or physiological goal. Along with components of Ashtânga Yoga, which includes yama, niyama, âsana, prânâyâma,pratyâhâra, dhâranâ, dhyâna, and samâdhi, the application of meditation,psychological counseling, chanting, and prayer are also included Yoga therapy respects individual differences in age, culture, religion, philosophy, occupation,mental and physical health.</item>
+    </string-array>
+    <string name="contacttxt1">MRR NATURE CURE HOSPITAL</string>
+    <string name="address">Solur Village, N.H. 48, \nNext to Bharath gas godown, \nMagadi Taluk, Ramanagara Dist. - 562127, \nKarnataka, India.</string>
+    <string name="contacttxt2">Telephone :</string>
+    <string name="contactno">080 2268 2900</string>
+    <string name="contacttxt3">E-Mail Address :</string>
+    <string name="emailaddress">info@mrrnaturecure.com</string>
+    <string-array name="events_list">
+        <item>Yoga and Nature Cure camps for public</item>
+        <item>Public health awareness camps</item>
+        <item>Promotion of Positive health for all age groups</item>
+        <item>Seminars, workshops and lectures</item>
+        <item>Research Activities</item>
+    </string-array>
+
+</resources>

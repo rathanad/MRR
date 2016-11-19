@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Company Profile" />
+            <item
+                android:id="@+id/nav_mission"
+                android:title="Vision Mission" />
+            <item
+                android:id="@+id/nav_management"
+                android:title="Management" />
+            <item
+                android:id="@+id/nav_director"
+                android:title="Director Message" />
+            <item
+                android:id="@+id/nav_facilities"
+                android:title="Facilities" />
+        </menu>
+    </item>
+
+    <item android:title="Treatment">
+        <menu>
+            <item
+                android:id="@+id/nav_history"
+                android:title="History" />
+            <item
+                android:id="@+id/nav_departments"
+                android:title="Departments" />
+            <item
+                android:id="@+id/nav_treatment"
+                android:title="Treatment Offer" />
+        </menu>
+    </item>
+
+    <item android:title="Accomodations">
+        <menu>
+            <item
+                android:id="@+id/nav_accomodation"
+                android:title="Accomodations" />
+        </menu>
+    </item>
+
+    <item android:title="Program">
+        <menu>
+            <item
+                android:id="@+id/nav_program"
+                android:title="Programs" />
+        </menu>
+    </item>
+
+    <item android:title="Media">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/nav_events"
+                android:title="Events" />
+            <item
+                android:id="@+id/nav_carrer"
+                android:title="Carrer Opportunities" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us" />
+
+</menu>

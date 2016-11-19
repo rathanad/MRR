@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:foreground="?android:selectableItemBackground"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/manipulative"
+            android:scaleType="center"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Male general ward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:text="Male general ward can accommodate 4 people in a room, 4 rooms of this particular category is availab.."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:text="Rs.1,000.00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:textSize="18sp"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
