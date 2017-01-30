@@ -55,6 +55,7 @@ public class ContentActivity extends AppCompatActivity {
         Ingredient management = new Ingredient("Management");
         Ingredient director = new Ingredient("Director Message");
         Ingredient facilities = new Ingredient("Facilities");
+        Ingredient boardofmembers= new Ingredient("Board of Members");
         Ingredient history = new Ingredient("History");
         Ingredient department = new Ingredient("Departments");
         Ingredient treatments = new Ingredient("Treatments Offer");
@@ -70,7 +71,7 @@ public class ContentActivity extends AppCompatActivity {
         Recipe accomodate = new Recipe("Accomodations", Arrays.asList(accomodation));
         Recipe programs = new Recipe("Program & Packages", Arrays.asList(program));
         Recipe media = new Recipe("Media", Arrays.asList(gallery, events, carrer, broucher));
-        Recipe about_us = new Recipe("About Us", Arrays.asList(company_profile, vision_mission, management, director, facilities));
+        Recipe about_us = new Recipe("About Us", Arrays.asList(company_profile, boardofmembers, vision_mission, management, director, facilities));
         Recipe contact_us = new Recipe("Contact Us", Arrays.asList(contact));
         final List<Recipe> recipes = Arrays.asList(treatment, accomodate, programs, media, about_us, contact_us);
 

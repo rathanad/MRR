@@ -26,6 +26,7 @@ public class History extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_history, container, false);
+        getActivity().setTitle("History");
 
         tvhistoryhead1 = (TextView) view.findViewById(R.id.headhistory1);
         tvhistoryhead2 = (TextView) view.findViewById(R.id.headhistory2);

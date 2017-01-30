@@ -1,13 +1,16 @@
 package in.askdial.mrr.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
+import in.askdial.mrr.ContentActivity;
 import in.askdial.mrr.R;
 
 /**
@@ -15,6 +18,8 @@ import in.askdial.mrr.R;
  */
 public class Accomodation_details extends Fragment {
     TextView tvdescription, tvtitle;
+    Button add_to_cart;
+
     int pos;
 
     public Accomodation_details() {
@@ -32,10 +37,19 @@ public class Accomodation_details extends Fragment {
 
         tvdescription = (TextView) view.findViewById(R.id.textView8);
         tvtitle = (TextView) view.findViewById(R.id.textView9);
+        add_to_cart= (Button) view.findViewById(R.id.add_to_cart);
+        add_to_cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in= new Intent(getActivity(), ContentActivity.class);
+                startActivity(in);
+            }
+        });
 
         if (pos == 0) {
             tvtitle.setText("Male General Ward");
             tvdescription.setText(getResources().getString(R.string.Male_general_ward));
+            add_to_cart= (Button) view.findViewById(R.id.add_to_cart);
         } else if (pos == 1) {
             tvtitle.setText("Female General Ward");
             tvdescription.setText(getResources().getString(R.string.Female_general_ward));

@@ -27,6 +27,7 @@ public class Management extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.management_content, container, false);
+        getActivity().setTitle("Management");
 
         /*toolbar = (Toolbar) view.findViewById(R.id.managementtoolbar);
         AppCompatActivity activity = (AppCompatActivity) getActivity();

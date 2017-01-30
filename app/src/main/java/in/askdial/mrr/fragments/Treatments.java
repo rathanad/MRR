@@ -25,6 +25,7 @@ public class Treatments extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_treatments, container, false);
+        getActivity().setTitle("Treatment Offer");
         tvhead = (TextView) view.findViewById(R.id.headtreatment);
         tvcontent = (TextView) view.findViewById(R.id.contenttreatment);
 

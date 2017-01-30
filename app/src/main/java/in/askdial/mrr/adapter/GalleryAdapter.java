@@ -60,12 +60,12 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.GalleryV
             int pos = getAdapterPosition();
             Content content = arrayList.get(pos);
             int image = content.getGalleryimgs();
-            MasterFragment fragment = new MasterFragment();
+           /* MasterFragment fragment = new MasterFragment();
             Bundle bundle = new Bundle();
             FragmentTransaction fragmentTransaction = gallery.getActivity().getSupportFragmentManager().beginTransaction();
             bundle.putInt("image", image);
             fragment.setArguments(bundle);
-            fragmentTransaction.replace(R.id.container_main, fragment).addToBackStack(null).commit();
+            fragmentTransaction.replace(R.id.container_main, fragment).addToBackStack(null).commit();*/
         }
     }
 }

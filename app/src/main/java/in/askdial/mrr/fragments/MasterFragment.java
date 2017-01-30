@@ -46,7 +46,7 @@ public class MasterFragment extends Fragment {
         /*setHasOptionsMenu(true);*/
 
         toolbar = (Toolbar) view.findViewById(R.id.toolbar);
-        footer = (Toolbar) view.findViewById(R.id.footer);
+        //footer = (Toolbar) view.findViewById(R.id.footer);
         AppCompatActivity activity = (AppCompatActivity) getActivity();
         activity.setSupportActionBar(toolbar);
 
@@ -60,8 +60,8 @@ public class MasterFragment extends Fragment {
 
         detailscontent = getResources().getStringArray(R.array.departmentscontentlist);
         detailsimage = (ImageView) view.findViewById(R.id.details_image);
-        settingsmenu = (ImageView) view.findViewById(R.id.settings_menu);
-        sharemenu = (ImageView) view.findViewById(R.id.share_menu);
+        //settingsmenu = (ImageView) view.findViewById(R.id.settings_menu);
+        //sharemenu = (ImageView) view.findViewById(R.id.share_menu);
         tv_detailshead = (TextView) view.findViewById(R.id.details_image_Text);
         tv_detailscontent = (TextView) view.findViewById(R.id.content_txt);
 
@@ -71,7 +71,7 @@ public class MasterFragment extends Fragment {
             tv_detailscontent.setText(detailscontent[position].toString());
         }
 
-        showPopup();
+        //showPopup();
 
         return view;
     }

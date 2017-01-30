@@ -73,6 +73,50 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/emailaddress" />
 
+            <TextView
+                android:id="@+id/company_map_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/contacttxt4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="91dp"
+                android:id="@+id/map"
+                android:layout_gravity="start"
+                android:src="@drawable/google_icon"
+                android:layout_height="70dp"
+                class="com.google.android.gms.maps.SupportMapFragment"/>
+
+               <ImageView
+                   android:layout_width="75dp"
+                   android:id="@+id/youtube"
+                   android:layout_gravity="start"
+                   android:src="@drawable/image_youtube3"
+                   android:layout_height="match_parent"
+                   />
+           </LinearLayout>
+
+            <WebView
+                android:id="@+id/webView_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                class="com.google.android.gms.youtube.SupportYoutubeFragment"></WebView>
+
+
+            <WebView
+                android:id="@+id/webView_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                class="com.google.android.gms.maps.SupportMapFragment"></WebView>
+
+
         </LinearLayout>
     </LinearLayout>
 

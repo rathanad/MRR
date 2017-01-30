@@ -25,6 +25,7 @@ public class Programs extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_programs, container, false);
+        getActivity().setTitle("Programs");
 
         tvhead = (TextView) view.findViewById(R.id.headprograms);
         tvcontent1 = (TextView) view.findViewById(R.id.contentprograms1);

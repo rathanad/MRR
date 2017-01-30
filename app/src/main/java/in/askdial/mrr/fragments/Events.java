@@ -35,6 +35,7 @@ public class Events extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_events, container, false);
+        getActivity().setTitle("Events");
 
         event_imgs = new int[]{R.drawable.events_1, R.drawable.events_2, R.drawable.events_3, R.drawable.events_4, R.drawable.events_5};
         event_content = getResources().getStringArray(R.array.events_list);

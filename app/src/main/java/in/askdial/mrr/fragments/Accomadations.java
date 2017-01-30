@@ -37,6 +37,7 @@ public class Accomadations extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.accomodations, container, false);
+        getActivity().setTitle("Accommodations");
 
         Title = getResources().getStringArray(R.array.acco_titles);
         Description = getResources().getStringArray(R.array.acco_descrip);

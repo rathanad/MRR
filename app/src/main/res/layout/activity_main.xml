@@ -4,30 +4,33 @@
     android:id="@+id/main_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mrr_building_sign"
     android:orientation="vertical"
-    android:background="@drawable/meditation"
-    tools:context="in.askdial.mrr.MainActivity">
+    tools:context="in.askdial.mrr.MainActivity"
+    android:weightSum="1">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="125dp"
+        android:layout_height="93dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
-        app:srcCompat="@drawable/mrr_image" />
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/mrr_image"
+        android:layout_weight="0.21" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="246dp"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="200dp"
         android:orientation="vertical">
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_username"
+            android:textColorHint="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp">
@@ -37,12 +40,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Username"
-                android:inputType="text" />
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
 
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_password"
+            android:textColorHint="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -51,7 +57,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Password"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:textColorHint="@color/white"
+               />
 
         </android.support.design.widget.TextInputLayout>
 

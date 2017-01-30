@@ -36,9 +36,10 @@ public class Departments extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_departments, container, false);
+        getActivity().setTitle("Departments");
 
-        imgs = new int[]{R.drawable.acupuncture, R.drawable.hydrotherapy, R.drawable.manipulativetherapy, R.drawable.diettherapy,
-                R.drawable.physiotherapy, R.drawable.aromatherapy, R.drawable.therapeuticyoga};
+        imgs = new int[]{R.drawable.acupuncture, R.drawable.mrr_hydro_therapy, R.drawable.mrr_manipulative_therapy, R.drawable.mrr_diet_therapy,
+                R.drawable.mrr_physiotherapy, R.drawable.mrr_aroma_therapy, R.drawable.therapy_yoga, R.drawable.mrr_meditation};
         heads = getResources().getStringArray(R.array.departmentsheadlist);
         contents = getResources().getStringArray(R.array.departmentscontentlist);
         arrayList = new ArrayList<>();

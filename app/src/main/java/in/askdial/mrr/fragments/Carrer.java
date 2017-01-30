@@ -25,6 +25,7 @@ public class Carrer extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_carrer, container, false);
+        getActivity().setTitle("Carrer");
 
         tvhead = (TextView) view.findViewById(R.id.headcarrer);
         tvcontent = (TextView) view.findViewById(R.id.contentcarrer);

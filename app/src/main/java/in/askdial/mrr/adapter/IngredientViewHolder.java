@@ -12,6 +12,7 @@ import com.bignerdranch.expandablerecyclerview.ViewHolder.ChildViewHolder;
 
 import in.askdial.mrr.R;
 import in.askdial.mrr.fragments.Accomadations;
+import in.askdial.mrr.fragments.BoardMembersFragment;
 import in.askdial.mrr.fragments.Broucher;
 import in.askdial.mrr.fragments.Carrer;
 import in.askdial.mrr.fragments.CompanyProfile;
@@ -63,6 +64,11 @@ public class IngredientViewHolder extends ChildViewHolder {
                     case "Director Message":
                         fragmentTransaction.replace(R.id.container_main, new Director()).addToBackStack(null).commit();
                         toolbar.setTitle("Director Message");
+                        break;
+
+                    case "Board of Members":
+                        fragmentTransaction.replace(R.id.container_main, new BoardMembersFragment()).addToBackStack(null).commit();
+                        toolbar.setTitle("Board of Members");
                         break;
 
                     case "Facilities":
