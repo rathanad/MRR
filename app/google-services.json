@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583387977804",
+    "project_id": "mrrnaturecure"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583387977804:android:bce13efb3f2bc1db",
+        "android_client_info": {
+          "package_name": "in.askdial.mrr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583387977804-ts9unu628iufd97j32uf2u7khl48jf2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.askdial.mrr",
+            "certificate_hash": "E8BA163ACC506C8CDA18A61EA6321292DA945195"
+          }
+        },
+        {
+          "client_id": "583387977804-131tth0gce33b3587if73qln150m9fas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC09_vSzitOh1FeJuXmYaLxOlWHjVDs4UE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

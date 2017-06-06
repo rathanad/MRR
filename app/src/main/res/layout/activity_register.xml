@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark2"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mrr_image" />
+
+        <EditText
+            android:id="@+id/edt_first_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:background="#b6cd00"
+            android:layout_alignParentBottom="true"
+            android:hint="First Name"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_last_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:background="#b6cd00"
+            android:hint="Last Name"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b6cd00"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_mobile"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b6cd00"
+            android:textColor="@color/black"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="start"
+            android:layout_marginTop="15dp"
+            android:background="#b6cd00"
+            android:hint="Address"
+            android:textColor="@color/black"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_city"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b6cd00"
+            android:textColor="@color/black"
+            android:hint="City"
+            android:inputType="text"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_state"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b6cd00"
+            android:hint="State"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edt_country"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:background="#b6cd00"
+            android:hint="Country"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:paddingLeft="5dp" />
+
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b6cd00"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingLeft="5dp" />
+
+
+
+        <EditText
+            android:id="@+id/edt_confirm_password"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b6cd00"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:paddingLeft="5dp" />
+
+        <!--<Button
+            android:id="@+id/btn_submit"
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.10"
+            android:background="@color/blue700"
+            android:text="submit"
+            android:textColor="#fff" />-->
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+
+            <TextView
+                android:id="@+id/terms_cond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I Accept the terms and Condition "
+                android:clickable="true" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonpressed"
+            android:text="submit"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="in.askdial.mrr.RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mrr_image" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#f3f3f3"
+            android:hint="First Name"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Last Name"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Email"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Mobile"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Address"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="City"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Country"
+            android:paddingLeft="5dp" />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Password"
+            android:paddingLeft="5dp" />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#f3f3f3"
+            android:hint="Confirm Password"
+            android:paddingLeft="5dp" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.10"
+            android:background="@color/blue700"
+            android:text="submit"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</ScrollView>
+-->

@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fcf9f9"
+    android:layout_height="match_parent"
+    tools:context="in.askdial.mrr.fragments.UserDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_gravity="center"
+            android:layout_height="98dp"
+            android:src="@drawable/mrr_logo_hr"
+            android:layout_weight="0.33" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/waveform_unselected_bkgnd_overlay"
+            android:orientation="horizontal">
+            <!--//android:background="@color/black_trans80"-->
+            <TextView
+                android:layout_width="164dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColorHint="@color/blue"
+                android:hint="First Name" />
+
+            <TextView
+                android:id="@+id/tv1_FirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:hint="XYZ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/waveform_unselected_bkgnd_overlay"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_FirstName"
+                android:layout_width="164dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColorHint="@color/blue"
+                android:hint="Last Name" />
+
+            <TextView
+                android:id="@+id/tv2_LastName"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"                android:gravity="center"
+                android:hint="XYZ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/waveform_unselected_bkgnd_overlay"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_FirstName"
+                android:layout_width="164dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColorHint="@color/blue"
+                android:hint="Email" />
+
+            <TextView
+                android:id="@+id/tv3_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@color/white"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_weight="1"
+                android:hint="info@mrrnaturecure.com"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/waveform_unselected_bkgnd_overlay"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_FirstName"
+                android:layout_width="164dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColorHint="@color/blue"
+                android:hint="Mobile" />
+
+            <TextView
+                android:id="@+id/tv4_Telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@color/white"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:hint="+91987654321"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/black_trans80"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_FirstName"
+                android:layout_width="164dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColorHint="@color/blue"
+                android:hint="Joined Date" />
+
+            <TextView
+                android:id="@+id/tv5_Date"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@color/white"
+                android:textColor="@color/green"
+                android:textColorHint="@color/green"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:hint="09/12/1990"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn_Home"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonpressed1"
+            android:text="Home"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,352 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:context="in.askdial.mrr.fragments.BoardMembersFragment">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="139dp"
+                android:layout_height="137dp"
+                android:layout_margin="16dp"
+                android:layout_weight="0.01"
+                android:maxHeight="10dp"
+                android:src="@drawable/mrr_rajashekaraiah" />
+
+<!--
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="218dp"
+
+                android:layout_height="158dp"
+                android:layout_gravity="end"
+                android:layout_weight="0.58"
+                android:gravity="center"
+                android:text="    M.Rajashekaraiah
+    Managing Director
+    (MRR Groups)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />-->
+            <LinearLayout
+                android:layout_width="203dp"
+                android:orientation="vertical"
+                android:layout_gravity="end"
+
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="50dp"
+                android:layout_height="133dp">
+
+
+            <TextView
+                android:text="   M.Rajashekaraiah"
+
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center" />
+
+            <TextView
+                android:text="    Managing Director"
+                android:layout_width="204dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center"
+               />
+                <TextView
+                    android:text=" (MRR Groups)"
+                    android:layout_width="196dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        //rajshekar
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   During last two hundred years, science and technology has become a significant factor in determining our everyday lives. We have to credit such great inventions and discoveries that had made our lives more comfortable in the material realm. We are witnesses for mobile phones, techno companies, fast food joints, kindles and social networking websites. But little do we know about the side effects
+                "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   This growth of modern scientific endeavors demands a new form organization of things, a certain different lifestyle from us consumers, which is far more productive in terms of the physical gain that can be had, but is unfavorable to our health and wellness. Our eating, travelling and living habits are sour. Stress is an area of major concern now. Case in point is the alarming increase of non communicable diseases. They have the potential to be malevolent killers. It is a known fact that our lifestyle is responsible for this; our sedentary lifestyle and our rich diet.
+"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   So, maybe it will not matter that we have accomplished so much if we put our health at stake. Our health is the most important wealth to ourselves, our families and our nation. We must preserve it. Looking back, we can see that our ancestors were wise and lived in harmony with nature. They based our civilizations on the five elements of nature, and lived healthy."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <View style="@style/Divider"></View>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="139dp"
+                android:layout_height="137dp"
+                android:layout_margin="16dp"
+                android:layout_weight="0.01"
+                android:maxHeight="10dp"
+                android:src="@drawable/mrr_rudresh" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="end"
+
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="50dp"
+                android:layout_height="133dp">
+
+
+                <TextView
+                    android:text="M Rudresh"
+
+                    android:layout_width="218dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text=" Chairman "
+                    android:layout_width="218dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:text=" (MRR Groups)"
+                    android:layout_width="218dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        //Rudresh
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     I am thinking  why we  call  our  age as ‘the  age  of life’? How  many of us are truly living? Because as Buddha says ‘Without health, life is not life, it is only languor and suffering an image of death. Of course , technology  has made us  realize  most of our  hopes. We have all the things required for our well being, but with our utter negligence towards basic hygiene, we have no sense of well being. Yes, we have wired technology, wireless technology. But amidst all this, our health is in haywire. So, we must rewire our lifestyles.
+                    "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       We fall ill because we leading lives against nature. Even if our individual organs work well, it is the proper integration of the individual functions they perform that maintains proper health.  Nature has always been the best healer. It is so gentle and yet very effective. It teaches us about ourselves, our powers, our immune systems. Natural healing deals with the cause of our maladies and not just the effects. It believes in the mantra – prevention is better than cure. It involves simple things – an agile lifestyle, fresh home food, healthy living habits, undisturbed rest. These things build up our ability to heal and maintain our health.
+"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       This  is a  holistic  approach,  protecting  us  from the  disorders  of  lifestyle, and purifying us."
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View style="@style/Divider"></View>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="139dp"
+                android:layout_height="137dp"
+                android:layout_margin="16dp"
+                android:layout_weight="0.01"
+                android:maxHeight="10dp"
+                android:src="@drawable/mrr_chethan_kumar" />
+
+            <LinearLayout
+                android:layout_width="203dp"
+                android:orientation="vertical"
+                android:layout_gravity="end"
+
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="50dp"
+                android:layout_height="133dp">
+
+
+                <TextView
+                    android:text="Dr. R Chethan Kumar"
+
+                    android:layout_width="213dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="   Medical Director &amp; CEO "
+                    android:layout_width="218dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:text=" (MRR Hospitals)"
+                    android:layout_width="218dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        //Chethan
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our health is the most important part of our lives, and often neglected too. It is the richest wealth any of us can possess. There is a harmony in being healthy, in functioning well. As they say, a sound mind dwells in a sound body. Every frame of our life achieves coherence only when our physical and mental health is maintained.
+                "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      In the last couple of years, the disease burden across the world has had a steady shift from communicable diseases to non-communicable diseases. In 2008, five of the top ten causes of mortality worldwide, other than injuries, were non communicable diseases. Studies note that this might increase to a toll of seven by 2030, with 76% of total deaths caused by them. A World Bank study estimates an expense of $35 trillion from 2005 to 2030 on the global economy if suitable measures are not taken to reduce the overpowering of NCDs.
+"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       Answer for all these  health issues  point at the same solution change in lifestyle. Naturopathy and Yoga can truly benefit us all when well practiced, applied and adopted. This  is our  aim to make  no further intermissions in addressing the root cause of this malady. To foster with the proper methods, and with conclusive results. Let us arise in realization and take the right steps. Nature is our best healer. It is our mother. Let us embrace its care."
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View style="@style/Divider"></View>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
