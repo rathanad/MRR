@@ -2,14 +2,15 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "in.askdial.mrr"
         minSdkVersion 16
         targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.1"
+        useLibrary 'org.apache.http.legacy'
     }
     buildTypes {
         release {
@@ -17,21 +18,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
+
+}
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':ccavenuemobile3')
+    compile files('D:/Projects/MRR/lib/json-simple-1.1.1.jar')
+    compile files('D:/Projects/MRR/lib/httpmime-4.2.5.jar')
+    compile files('D:/Projects/MRR/lib/httpcore-4.2.4.jar')
+    compile files('D:/Projects/MRR/lib/httpclient-cache-4.2.5.jar')
+    compile files('D:/Projects/MRR/lib/httpclient-4.2.5.jar')
     compile 'com.android.support:support-v4:24.2.1'
     compile 'com.android.support:design:24.2.1'
     compile 'com.android.support:recyclerview-v7:24.2.1'
     compile 'com.android.support:cardview-v7:24.2.1'
-
     compile 'com.bignerdranch.android:expandablerecyclerview:2.1.1'
-
     compile 'com.google.android.gms:play-services-location:10.0.1'
     compile 'com.google.android.gms:play-services-maps:10.0.1'
     compile 'com.google.android.gms:play-services-nearby:10.0.1'
-
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v13:25.3.0'
     testCompile 'junit:junit:4.12'
 }

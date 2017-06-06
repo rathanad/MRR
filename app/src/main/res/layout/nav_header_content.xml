@@ -4,12 +4,14 @@
     android:layout_height="@dimen/nav_header_height"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
-
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1"
+    >
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:layout_weight="1"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:src="@drawable/mrr_image1" />
 
@@ -17,6 +19,7 @@
         android:id="@+id/headerview"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/gray" />
+        />
+
 
 </LinearLayout>

@@ -101,6 +101,13 @@
                    android:src="@drawable/image_youtube3"
                    android:layout_height="match_parent"
                    />
+               <ImageView
+                   android:layout_width="75dp"
+                   android:id="@+id/check"
+                   android:layout_gravity="start"
+                   android:src="@drawable/mrr_image1"
+                   android:layout_height="match_parent"
+                   />
            </LinearLayout>
 
             <WebView
@@ -112,6 +119,11 @@
 
             <WebView
                 android:id="@+id/webView_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                class="com.google.android.gms.maps.SupportMapFragment"></WebView>
+            <WebView
+                android:id="@+id/webView_youtubee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 class="com.google.android.gms.maps.SupportMapFragment"></WebView>

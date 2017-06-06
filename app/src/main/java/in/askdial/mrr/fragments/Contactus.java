@@ -4,9 +4,6 @@ package in.askdial.mrr.fragments;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.location.Criteria;
-import android.location.Location;
-import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -17,20 +14,14 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.ImageView;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.Map;
 
 import in.askdial.mrr.ContentActivity;
 import in.askdial.mrr.R;
-
-import static android.content.Context.LOCATION_SERVICE;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -39,7 +30,7 @@ public class Contactus extends Fragment {
 
     View view;
 
-    ImageView img_map, img_youtube, contact_image;
+    ImageView img_map, img_youtube, contact_image,check;
     GoogleMap googleMap;
 
     LatLng myPosition;
@@ -62,6 +53,8 @@ public class Contactus extends Fragment {
         img_map = (ImageView) view.findViewById(R.id.map);
         contact_image = (ImageView) view.findViewById(R.id.contact_image);
         img_youtube = (ImageView) view.findViewById(R.id.youtube);
+        check= (ImageView) view.findViewById(R.id.check);
+
 
         contact_image.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +63,15 @@ public class Contactus extends Fragment {
                 startActivity(intent);
             }
         });
+
+        check.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                startActivity(browserIntent);
+            }
+        });
+
 
         img_map.setOnClickListener(new View.OnClickListener() {
 
@@ -124,6 +126,8 @@ public class Contactus extends Fragment {
                 webview.loadData(summary, "text/html", null);
             }
         });
+
+
 
 
         return view;

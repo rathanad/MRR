@@ -4,6 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">LOGIN</string>
     <string name="register">REGISTER</string>
+    <string name="guest">Guest</string>
     <string name="profile_passage1">MRR Nature Cure is a Naturopathy Hospital, which provides you holistic healthcare without medicines &amp; it offers treatment for diseases using well researched system of Yoga, Naturopathy and other healing therapies etc; this natural healing system has no hidden side-effects.</string>
     <!--<string name="passage">\It is located close to Garden city Bengaluru, set in 20 acres of Greenery of Coconut and Mango groves. \Our stress management workshops for business executives teach you to live stress free, powerful, purposeful life, in today's competitive and commercial world.</string>-->
     <string name="profile_passage3">Naturopathy, a time-tested system of drugless healing, offers healthcare through therapies like Natural therapy, yogic therapy, mud and hydro therapy, magneto therapy, acupuncture and physiotherapy.</string>
@@ -42,7 +43,25 @@
 
     <string name="collapsed">collapsed: %s</string>
     <string name="expanded">expanded: %s</string>
+    <string-array name="productId">
+        <item>65</item>
+        <item>66</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
 
+    </string-array>
+    <string-array name="amount">
+        <item>Rs. 500</item>
+        <item>Rs. 500</item>
+        <item>Rs. 850</item>
+        <item>Rs. 650</item>
+        <item>Rs. 2500</item>
+        <item>Rs. 3500</item>
+        <item>Rs. 6000</item>
+    </string-array>
     <string-array name="acco_titles">
         <item>Male general ward</item>
         <item>Female general ward</item>

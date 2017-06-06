@@ -1,22 +1,12 @@
 package in.askdial.mrr.fragments;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -43,9 +33,11 @@ public class MasterFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_master, container, false);
 
+
         /*setHasOptionsMenu(true);*/
 
         toolbar = (Toolbar) view.findViewById(R.id.toolbar);
+
         //footer = (Toolbar) view.findViewById(R.id.footer);
         AppCompatActivity activity = (AppCompatActivity) getActivity();
         activity.setSupportActionBar(toolbar);
@@ -76,7 +68,7 @@ public class MasterFragment extends Fragment {
         return view;
     }
 
-    private void showPopup() {
+    /*private void showPopup() {
         settingsmenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view) {
@@ -108,8 +100,8 @@ public class MasterFragment extends Fragment {
                 getActivity().getMenuInflater().inflate(R.menu.test_menu, popupMenu.getMenu());
                 popupMenu.show();
             }
-        });
-        sharemenu.setOnClickListener(new View.OnClickListener() {
+        });*/
+        /*sharemenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 PopupMenu popupMenu = new PopupMenu(getActivity(), view);
@@ -124,5 +116,6 @@ public class MasterFragment extends Fragment {
                 popupMenu.show();
             }
         });
-    }
+        }*/
+
 }

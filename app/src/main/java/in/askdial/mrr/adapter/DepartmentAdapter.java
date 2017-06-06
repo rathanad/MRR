@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import in.askdial.mrr.Content;
+import in.askdial.mrr.values.Content;
 import in.askdial.mrr.R;
 import in.askdial.mrr.fragments.Departments;
 import in.askdial.mrr.fragments.MasterFragment;

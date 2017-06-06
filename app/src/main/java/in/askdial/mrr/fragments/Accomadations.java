@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import in.askdial.mrr.adapter.AccoAdapter;
-import in.askdial.mrr.Content;
+import in.askdial.mrr.values.Content;
 import in.askdial.mrr.R;
 
 /**
@@ -25,7 +25,8 @@ public class Accomadations extends Fragment {
 
     ArrayList<Content> arrayList;
 
-    String[] Title, Description;
+    String[] Title, Description, amount, product_id;
+
     Content content;
 
     public Accomadations() {
@@ -39,12 +40,17 @@ public class Accomadations extends Fragment {
         View view = inflater.inflate(R.layout.accomodations, container, false);
         getActivity().setTitle("Accommodations");
 
+
         Title = getResources().getStringArray(R.array.acco_titles);
         Description = getResources().getStringArray(R.array.acco_descrip);
+        amount=getResources().getStringArray(R.array.amount);
+        product_id=getResources().getStringArray(R.array.productId);
+
+
 
         arrayList = new ArrayList<>();
         for (int i = 0; i < Title.length; i++) {
-            content = new Content(Title[i], Description[i]);
+            content = new Content(Title[i], Description[i], amount[i],product_id[i]);
             arrayList.add(content);
         }
 

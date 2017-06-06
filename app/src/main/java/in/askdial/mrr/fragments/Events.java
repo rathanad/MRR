@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import in.askdial.mrr.Content;
+import in.askdial.mrr.values.Content;
 import in.askdial.mrr.R;
 import in.askdial.mrr.adapter.EventAdapter;
 
